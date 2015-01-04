@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044A6D481A58AC5A0040A9DC /* St.Bernard.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 044A6D471A58AC5A0040A9DC /* St.Bernard.JPG */; };
+		044A6D4C1A58B59C0040A9DC /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 044A6D491A58B59C0040A9DC /* BorderCollie.jpg */; };
+		044A6D4D1A58B59C0040A9DC /* ItalianGreyhound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 044A6D4A1A58B59C0040A9DC /* ItalianGreyhound.jpg */; };
+		044A6D4E1A58B59C0040A9DC /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 044A6D4B1A58B59C0040A9DC /* JRT.jpg */; };
+		0461CDB21A55EC390069F7BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461CDB11A55EC390069F7BD /* main.m */; };
+		0461CDB51A55EC390069F7BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461CDB41A55EC390069F7BD /* AppDelegate.m */; };
+		0461CDB81A55EC390069F7BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461CDB71A55EC390069F7BD /* ViewController.m */; };
+		0461CDBB1A55EC390069F7BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0461CDB91A55EC390069F7BD /* Main.storyboard */; };
+		0461CDBD1A55EC390069F7BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0461CDBC1A55EC390069F7BD /* Images.xcassets */; };
+		0461CDC01A55EC390069F7BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0461CDBE1A55EC390069F7BD /* LaunchScreen.xib */; };
+		0461CDCC1A55EC390069F7BD /* Man_s_Best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461CDCB1A55EC390069F7BD /* Man_s_Best_FriendTests.m */; };
+		0461CDD71A55ED6E0069F7BD /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461CDD61A55ED6E0069F7BD /* MBFDog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0461CDC61A55EC390069F7BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0461CDA41A55EC390069F7BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0461CDAB1A55EC390069F7BD;
+			remoteInfo = "Man's Best Friend";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044A6D471A58AC5A0040A9DC /* St.Bernard.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = St.Bernard.JPG; sourceTree = "<group>"; };
+		044A6D491A58B59C0040A9DC /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BorderCollie.jpg; sourceTree = "<group>"; };
+		044A6D4A1A58B59C0040A9DC /* ItalianGreyhound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItalianGreyhound.jpg; sourceTree = "<group>"; };
+		044A6D4B1A58B59C0040A9DC /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
+		0461CDAC1A55EC390069F7BD /* Man's Best Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Man's Best Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0461CDB01A55EC390069F7BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0461CDB11A55EC390069F7BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0461CDB31A55EC390069F7BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0461CDB41A55EC390069F7BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0461CDB61A55EC390069F7BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0461CDB71A55EC390069F7BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0461CDBA1A55EC390069F7BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0461CDBC1A55EC390069F7BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0461CDBF1A55EC390069F7BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0461CDC51A55EC390069F7BD /* Man's Best FriendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Man's Best FriendTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0461CDCA1A55EC390069F7BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0461CDCB1A55EC390069F7BD /* Man_s_Best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man_s_Best_FriendTests.m; sourceTree = "<group>"; };
+		0461CDD51A55ED6E0069F7BD /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBFDog.h; path = ../MBFDog.h; sourceTree = "<group>"; };
+		0461CDD61A55ED6E0069F7BD /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBFDog.m; path = ../MBFDog.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0461CDA91A55EC390069F7BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0461CDC21A55EC390069F7BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0461CDA31A55EC390069F7BD = {
+			isa = PBXGroup;
+			children = (
+				0461CDAE1A55EC390069F7BD /* Man's Best Friend */,
+				0461CDC81A55EC390069F7BD /* Man's Best FriendTests */,
+				0461CDAD1A55EC390069F7BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0461CDAD1A55EC390069F7BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0461CDAC1A55EC390069F7BD /* Man's Best Friend.app */,
+				0461CDC51A55EC390069F7BD /* Man's Best FriendTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0461CDAE1A55EC390069F7BD /* Man's Best Friend */ = {
+			isa = PBXGroup;
+			children = (
+				0461CDB31A55EC390069F7BD /* AppDelegate.h */,
+				0461CDB41A55EC390069F7BD /* AppDelegate.m */,
+				0461CDB61A55EC390069F7BD /* ViewController.h */,
+				0461CDB71A55EC390069F7BD /* ViewController.m */,
+				0461CDD51A55ED6E0069F7BD /* MBFDog.h */,
+				0461CDD61A55ED6E0069F7BD /* MBFDog.m */,
+				0461CDB91A55EC390069F7BD /* Main.storyboard */,
+				0461CDBC1A55EC390069F7BD /* Images.xcassets */,
+				0461CDBE1A55EC390069F7BD /* LaunchScreen.xib */,
+				0461CDAF1A55EC390069F7BD /* Supporting Files */,
+			);
+			path = "Man's Best Friend";
+			sourceTree = "<group>";
+		};
+		0461CDAF1A55EC390069F7BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				044A6D491A58B59C0040A9DC /* BorderCollie.jpg */,
+				044A6D4A1A58B59C0040A9DC /* ItalianGreyhound.jpg */,
+				044A6D4B1A58B59C0040A9DC /* JRT.jpg */,
+				044A6D471A58AC5A0040A9DC /* St.Bernard.JPG */,
+				0461CDB01A55EC390069F7BD /* Info.plist */,
+				0461CDB11A55EC390069F7BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0461CDC81A55EC390069F7BD /* Man's Best FriendTests */ = {
+			isa = PBXGroup;
+			children = (
+				0461CDCB1A55EC390069F7BD /* Man_s_Best_FriendTests.m */,
+				0461CDC91A55EC390069F7BD /* Supporting Files */,
+			);
+			path = "Man's Best FriendTests";
+			sourceTree = "<group>";
+		};
+		0461CDC91A55EC390069F7BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0461CDCA1A55EC390069F7BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0461CDAB1A55EC390069F7BD /* Man's Best Friend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0461CDCF1A55EC390069F7BD /* Build configuration list for PBXNativeTarget "Man's Best Friend" */;
+			buildPhases = (
+				0461CDA81A55EC390069F7BD /* Sources */,
+				0461CDA91A55EC390069F7BD /* Frameworks */,
+				0461CDAA1A55EC390069F7BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Man's Best Friend";
+			productName = "Man's Best Friend";
+			productReference = 0461CDAC1A55EC390069F7BD /* Man's Best Friend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0461CDC41A55EC390069F7BD /* Man's Best FriendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0461CDD21A55EC390069F7BD /* Build configuration list for PBXNativeTarget "Man's Best FriendTests" */;
+			buildPhases = (
+				0461CDC11A55EC390069F7BD /* Sources */,
+				0461CDC21A55EC390069F7BD /* Frameworks */,
+				0461CDC31A55EC390069F7BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0461CDC71A55EC390069F7BD /* PBXTargetDependency */,
+			);
+			name = "Man's Best FriendTests";
+			productName = "Man's Best FriendTests";
+			productReference = 0461CDC51A55EC390069F7BD /* Man's Best FriendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0461CDA41A55EC390069F7BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jack Fischer";
+				TargetAttributes = {
+					0461CDAB1A55EC390069F7BD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					0461CDC41A55EC390069F7BD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 0461CDAB1A55EC390069F7BD;
+					};
+				};
+			};
+			buildConfigurationList = 0461CDA71A55EC390069F7BD /* Build configuration list for PBXProject "Man's Best Friend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0461CDA31A55EC390069F7BD;
+			productRefGroup = 0461CDAD1A55EC390069F7BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0461CDAB1A55EC390069F7BD /* Man's Best Friend */,
+				0461CDC41A55EC390069F7BD /* Man's Best FriendTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0461CDAA1A55EC390069F7BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044A6D4D1A58B59C0040A9DC /* ItalianGreyhound.jpg in Resources */,
+				044A6D481A58AC5A0040A9DC /* St.Bernard.JPG in Resources */,
+				044A6D4E1A58B59C0040A9DC /* JRT.jpg in Resources */,
+				0461CDBB1A55EC390069F7BD /* Main.storyboard in Resources */,
+				044A6D4C1A58B59C0040A9DC /* BorderCollie.jpg in Resources */,
+				0461CDC01A55EC390069F7BD /* LaunchScreen.xib in Resources */,
+				0461CDBD1A55EC390069F7BD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0461CDC31A55EC390069F7BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0461CDA81A55EC390069F7BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0461CDB81A55EC390069F7BD /* ViewController.m in Sources */,
+				0461CDB51A55EC390069F7BD /* AppDelegate.m in Sources */,
+				0461CDD71A55ED6E0069F7BD /* MBFDog.m in Sources */,
+				0461CDB21A55EC390069F7BD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0461CDC11A55EC390069F7BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0461CDCC1A55EC390069F7BD /* Man_s_Best_FriendTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0461CDC71A55EC390069F7BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0461CDAB1A55EC390069F7BD /* Man's Best Friend */;
+			targetProxy = 0461CDC61A55EC390069F7BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0461CDB91A55EC390069F7BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0461CDBA1A55EC390069F7BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0461CDBE1A55EC390069F7BD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0461CDBF1A55EC390069F7BD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0461CDCD1A55EC390069F7BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0461CDCE1A55EC390069F7BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0461CDD01A55EC390069F7BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Man's Best Friend/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0461CDD11A55EC390069F7BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Man's Best Friend/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0461CDD31A55EC390069F7BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Man's Best FriendTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Man's Best Friend.app/Man's Best Friend";
+			};
+			name = Debug;
+		};
+		0461CDD41A55EC390069F7BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Man's Best FriendTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Man's Best Friend.app/Man's Best Friend";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0461CDA71A55EC390069F7BD /* Build configuration list for PBXProject "Man's Best Friend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0461CDCD1A55EC390069F7BD /* Debug */,
+				0461CDCE1A55EC390069F7BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0461CDCF1A55EC390069F7BD /* Build configuration list for PBXNativeTarget "Man's Best Friend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0461CDD01A55EC390069F7BD /* Debug */,
+				0461CDD11A55EC390069F7BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0461CDD21A55EC390069F7BD /* Build configuration list for PBXNativeTarget "Man's Best FriendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0461CDD31A55EC390069F7BD /* Debug */,
+				0461CDD41A55EC390069F7BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0461CDA41A55EC390069F7BD /* Project object */;
+}
